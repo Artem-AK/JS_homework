@@ -14,7 +14,7 @@ function division(a, b) {
 }
 function modulo(a, b) {
     result = a % b;
-    console.log("Деление с остачей: " + result);
+    console.log("Остаток от деления: " + result);
 }
 
 function mainFunction(callback) {

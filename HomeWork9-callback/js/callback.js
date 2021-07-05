@@ -1,15 +1,20 @@
+let result;
 
 function exponentiation(a, b) {
-    alert(Math.pow(a, b));
+    result = Math.pow(a, b);
+    console.log("Возведение в степень: " + result);
 }
 function multiplay(a, b) {
-    alert(a * b);
+    result = a * b;
+    console.log("Умножение: " + result);
 }
 function division(a, b) {
-    alert(a / b);
+    result = a / b;
+    console.log("Деление: " + result);
 }
 function modulo(a, b) {
-    alert(a % b);
+    result = a % b;
+    console.log("Деление с остачей: " + result);
 }
 
 function mainFunction(callback) {
